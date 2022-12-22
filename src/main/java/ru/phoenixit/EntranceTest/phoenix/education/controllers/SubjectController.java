@@ -18,13 +18,13 @@ public class SubjectController {
 
     @ResponseBody
     @GetMapping("/{id}")
-    public Subject getClass(@PathVariable("id") Integer id){
+    public Subject getSubject(@PathVariable("id") Integer id){
         return subjectService.findOne(id);
     }
 
     @ResponseBody
     @GetMapping("/list")
-    public List<Subject> getClassList(){
+    public List<Subject> getSubjectList(){
         return subjectService.findAll();
     }
 
