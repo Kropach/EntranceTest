@@ -3,11 +3,11 @@ package ru.phoenixit.EntranceTest.phoenix.education.models;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "class")
-public class Class {
+@Table(name = "subject")
+public class Subject {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "class_id")
+    @Column(name = "subject_id")
     private Integer classId;
     @Column(name = "name")
     private String name;
@@ -53,7 +53,7 @@ public class Class {
 
     @Override
     public String toString() {
-        return "Class{" +
+        return "Subject{" +
                 "classId=" + classId +
                 ", name='" + name + '\'' +
                 ", duration=" + duration +

@@ -1,4 +1,4 @@
-package ru.phoenixit.EntranceTest.phoenix.education.Service;
+package ru.phoenixit.EntranceTest.phoenix.education.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -68,5 +68,4 @@ public class DepartmentService {
             return "Ошибка во время обновления факультета";
         }
     }
-
 }

@@ -5,7 +5,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
-import ru.phoenixit.EntranceTest.phoenix.education.Service.DepartmentService;
+import ru.phoenixit.EntranceTest.phoenix.education.services.DepartmentService;
 import ru.phoenixit.EntranceTest.phoenix.education.models.Department;
 
 import java.util.List;
